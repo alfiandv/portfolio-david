@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "archivo", sans-serif;
+  background-color: #f6f6f6;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+.slider {
+  background: no-repeat cover;
+  width: value;
+  height: value;
+  position: center / 50% 50%  /  value;
+}
+
+.hamburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-black;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
