@@ -2,10 +2,10 @@ import React from "react";
 
 const Pembukaan = () => {
     return (
-        <div id="mainPembukaan"class="flex flex-col">
-            <div id="aboutProject">
-                <div class="mx-auto w-screen grid grid-rows-8 lg:grid-cols-8 text-hijau344E41 lg:px-[75px] xl:p-[100px]">
-                    <div id="pembukaanKiri" class="row-span-4 lg:col-span-5 w-full h-full flex flex-col p-[50px] lg:px-0">
+        <div id="mainPembukaan"class="w-full flex flex-col">
+            <div id="aboutProject" className="">
+                <div class="mx-auto grid grid-rows-8 lg:grid-cols-8 text-hijau344E41 lg:px-[75px] xl:p-[100px]">
+                    <div id="pembukaanKiri" class="row-span-4 lg:col-span-5 w-full h-full flex flex-col p-[25px] lg:px-0">
                         <span class="mb-[50px] text-center lg:text-start text-heading2 text-hijau344E41">E-Commerce Lentera Teknologi</span>
                         <span class="text-center lg:text-start text-base text-hijau344E41">" Merupakan penelitian Tugas Akhir tentang CV. Lentera Teknologi, dimana pihak Lentera Software house belum memiliki tempat untuk mewadahi aplikasi siap pakai untuk dijual ke pelanggan. "</span>
                     </div>
@@ -28,12 +28,13 @@ const Pembukaan = () => {
                         </div>
                         
                     </div>
+                    
                 </div>
             </div>
-            <div id="overview" class=" flex flex-col p-[50px] lg:px-[150px] xl:pt-0 xl:px-[200px]">
-                    <span class="mb-[50px] text-center text-heading3 text-hijau344E41">OVERVIEW</span>
-                    <span class="text-base text-center mb-[50px] mt-[50px] text-hijau344E41">" Merupakan penelitian Tugas Akhir tentang CV. Lentera Teknologi. Lentera Teknologi adalah perusahaan yang bergerak di bidang pengembangan aplikasi (software development). CV. Lentera Teknologi melayani pembuatan aplikasi website, desktop, dan android.  Terdapat dua jenis pesanan aplikasi, yaitu yang pertama adalah aplikasi proyek yang harus memerlukan analisa kebutuhan lebih dahulu sebelum membangun aplikasi, pemesanan aplikasi proyek ini, pelanggan bisa menghubungi Lentera Software House melalui email dan whatsapp, dan yang kedua adalah menjual aplikasi yang sudah jadi. "</span>
-            </div>
+                    <div id="overview" class=" w-full h-full min-w-[475px] flex flex-col p-[50px] lg:px-[150px] xl:pt-0 xl:px-[200px]">
+                        <span class="mb-[50px] text-center text-heading3 text-hijau344E41">OVERVIEW</span>
+                        <span class="text-base text-center mb-[50px] mt-[50px] text-hijau344E41">" Merupakan penelitian Tugas Akhir tentang CV. Lentera Teknologi. Lentera Teknologi adalah perusahaan yang bergerak di bidang pengembangan aplikasi (software development). CV. Lentera Teknologi melayani pembuatan aplikasi website, desktop, dan android.  Terdapat dua jenis pesanan aplikasi, yaitu yang pertama adalah aplikasi proyek yang harus memerlukan analisa kebutuhan lebih dahulu sebelum membangun aplikasi, pemesanan aplikasi proyek ini, pelanggan bisa menghubungi Lentera Software House melalui email dan whatsapp, dan yang kedua adalah menjual aplikasi yang sudah jadi. "</span>
+                    </div>
         </div>
     </div>
     )

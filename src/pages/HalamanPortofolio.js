@@ -9,14 +9,13 @@ import Footer from '../component/portfolio1/Footer';
 
 const HalamanPortfolio = () => {
     return (
-      <div> 
+      <div className="min-w-screen"> 
         <Banner />
         <Pembukaan />
         <Proses />
         <Desainmvp />
         <Penutup />
         <Footer />
-        
       </div>
     );
   }
