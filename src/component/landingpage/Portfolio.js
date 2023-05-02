@@ -16,7 +16,7 @@ const Portfolio = () => {
                             </div>
                             <span className="font-semibold text-heading5 md:text-heading4 pl-5 pt-5 pb-2 text-hijau344E41">E-Commerce penjualan aplikasi</span>
                             <span className="font-normal text-heading5 md:text-heading4 pl-5 pb-2 text-hijau344E41">Lentera Teknologi Indonesia</span>
-                            <a href="./portfolio" className="place-self-end pl-5 pt-8 pr-5 pb-5"><span className="font-normal text-hijauA3B18A text-heading4 underline italic">selengkapnya</span></a>    
+                            <a href="./portfolio" className="place-self-end pl-5 pt-8 pr-5 pb-5"><span className="font-normal text-hijauA3B18A text-heading5 underline italic">selengkapnya</span></a>    
                         </div>
                     </div>
                     
