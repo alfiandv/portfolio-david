@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
     return (
-        <div id="main_skills" className="mx-auto w-full grid md:grid-cols-9 sm:grid-rows-9 md:mt-[36px]">
+        <div id="main_skills" className="mx-auto min-w-[450px] w-full grid md:grid-cols-9 sm:grid-rows-9 md:mt-[36px]">
             <div id="ux" className="sm:row-span-4 md:col-span-4 w-full h-full ">
                 <div className="px-20 py-20 md:-mr-[80px] lg:-mr-[120px] md:pt-24 md:pb-32 lg:px-32 lg:pt-24 lg:pb-24">
                     <div className="flex flex-col">

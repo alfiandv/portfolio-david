@@ -7,7 +7,7 @@ const Hero = () => {
     const salam = ('HELLO WORLD/>');
 
     return (
-    <div id="main_hero" className="md:h-[500px] xl:h-630 w-full md:w-full xl:w-full md:inline-flex">
+    <div id="main_hero" className="min-w-[450px] md:h-[500px] xl:h-630 w-full md:w-full xl:w-full md:inline-flex">
         <div id="hero_kiri" className=" md:w-[60%] flex flex-col pl-20 xl:pl-30 md:pl-20 pt-10 xl:pt-24 pb-10">
             <span className="text-heading2 sm:text-heading2 md:text-heading2 lg:text-heading1 font-bold mb-5 text-hijau344E41">{salam}</span>
             <span className="text-heading2 sm:text-heading2 md:text-heading1 lg:text-heading1 font-bold text-hijau344E41">DAVID ALFIAN ARIYOGA</span>

@@ -31,7 +31,8 @@ module.exports = {
         'heading2': ['31px', '120%'],
         'heading3': ['25px', '120%'],
         'heading4': ['20px', '120%'],
-        'heading5' : ['16px', '102%']
+        'heading5' : ['16px', '120%'],
+        'heading6' : ['12px', '120%'],
       },
       colors: {
         'hijauA3B18A' : '#A3B18A',

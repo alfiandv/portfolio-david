@@ -4,7 +4,7 @@ import bannerLentera from '../../img/port1/bannerLentera.png';
 const Portfolio = () => {
 
     return (
-        <div id="mainPortfolio" className="h-full w-full flex flex-col pt-5 mt-20">
+        <div id="mainPortfolio" className="min-w-[450px] h-full w-full flex flex-col pt-5 mt-20">
             <span className="text-heading2 text-hijau344E41 font-bold mx-auto">Case Studies</span>
                 <div id="port" className="flex flex-row flex-wrap items-center justify-center px-[50px] md:px-32 mt-20 gap-8">
                     <div id="card" className="bg-[#ececec] text-hijau344E41 max-w-[350px] lg:max-w-[450px] min-h-[12rem] mb-20 shadow-lg rounded-md overflow-hidden ">
