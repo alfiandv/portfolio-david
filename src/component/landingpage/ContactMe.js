@@ -12,7 +12,7 @@ const ContactMe = () => {
 
     return (
        <div>
-            <div className=" min-w-[450px] md:w-full xl:w-full bg-hijauDAD7CD flex flex-col mt-[100px] px-10 md:pl-32 pt-12 pb-1 md:pr-32">
+            <div className=" min-w-[450px] md:w-full xl:w-full bg-hijauDAD7CD flex flex-col mt-[80px] px-10 md:pl-32 pt-12 pb-1 md:pr-32">
                 <span className="text-heading3 font-bold mb-3">Hook me up!</span>
                 <div className="flex-row">
                     <a href="mailto:davealfian72@gmail.com"><FontAwesomeIcon icon={faEnvelope} /><span className="pl-5">Davealfian72@gmail.com</span></a>

@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       screens: {
         'xs' : '0px',
+        
         'nv988' : '988px',
         'nv725' : '725px',
         'nv745' : '745px',
@@ -59,3 +60,9 @@ module.exports = {
   plugins: [],
 }
 
+// xs = dibawah 648px 
+// sm = dibawah 768px
+// md = dibawah 1024px
+// lg = dibawah 1280px
+// xl = dibawah 1536px
+// 2xl = 1536px
