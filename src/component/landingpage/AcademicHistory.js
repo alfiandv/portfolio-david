@@ -25,7 +25,7 @@ const AcademicHistory = () => {
             <div id="kerja-kanan" className="md:col-span-4 xs:col-span-8 w-full h-full xs:flex md:hidden">
                 <div className="w-full h-full bg-[#f6f6f6] rounded-md md:p-5 flex flex-col justify-start items-start ">
                     <span className="text-hijau344E41 text-heading4 md:text-heading4 lg:text-heading3 font-bold pb-2">PT. Samudera Agung Mineral</span>
-                    <span className="text-hijau344E41 text-heading5 md:text-heading4 font-semibold pb-1" >Administrative Staff</span>
+                    <span className="text-hijau344E41 text-heading5 md:text-heading4 font-normal pb-1" >Administrative Staff</span>
                     <span className="text-hijau344E41 text-heading5 font-normal xs:pb-3 md:pb-0"> 17/Okt/2022 - 14/Des/2022 </span>
                 </div>
             </div>
@@ -45,8 +45,8 @@ const AcademicHistory = () => {
             <div id="kuliah-kanan" className="md:col-span-4 xs:col-span-8 w-full h-full ">
                 <div className="w-full h-full bg-[#f6f6f6] rounded-md md:p-5 flex flex-col justify-start items-start">
                     <span className="text-hijau344E41 text-heading4 md:text-heading4 lg:text-heading3 font-bold pb-2">Universitas Dinamika</span>
-                    <span className="text-hijau344E41 text-heading6 md:text-heading4 font-normal pb-1">S1 Sistem Informasi</span>
-                    <span className="text-hijau344E41 text-heading6 font-normal xs:pb-3 md:pb-0">2017 - 2022</span>
+                    <span className="text-hijau344E41 text-heading5 md:text-heading4 font-normal pb-1">S1 Sistem Informasi</span>
+                    <span className="text-hijau344E41 text-heading5 font-normal xs:pb-3 md:pb-0">2017 - 2022</span>
                 </div>
             </div>
         </div>
