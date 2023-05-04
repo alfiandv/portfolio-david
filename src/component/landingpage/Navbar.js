@@ -14,7 +14,7 @@ const Navbar = () => {
         <div id="main_navbar" className="min-w-[450px] w-full block">
         <div id="navbar" className="flex w-full md:w-[60%] text-xl justify-between items-center">
             <div className="flex items-center">
-                <span className=" font-semibold pl-20 md:pl-20 xl:pl-30 my-8 md:my-12">DAA.</span>
+                <span className=" font-semibold pl-20 md:pl-20 xl:pl-30 my-12 md:my-12">DAA.</span>
             </div>
             <div className="flex items-center pr-20 md:pr-10 relative ">
                     <ul className="flex gap-x-8 font-semibold">
