@@ -1,8 +1,53 @@
 import React from "react";
+import ui from '../../img/ui.png';
+import web from '../../img/web.jpg';
 
 const Skills = () => {
     return (
-        <div id="main_skills" className="mx-auto min-w-[450px] w-full grid md:grid-cols-9 sm:grid-rows-9 md:mt-[36px]">
+        
+        <div id="main_skills" className="mx-auto min-w-[450px] w-full pt-20 mb-20">
+                <div className="flex flex-col pb-20">
+                        <span className="text-heading3 text-hijauA3B18A font-bold mx-auto  pb-2">Area Of</span>
+                        <span className="text-heading2 text-hijau344E41 font-bold mx-auto">Experties</span>
+                </div>
+                <div id="port" className="flex flex-row flex-wrap items-center justify-center md:px-32 gap-20">
+                    <div id="card" className=" max-w-[350px] md:max-w-[450px] duration-700 shadow-lg rounded-md overflow-hidden relative group">
+                        <img src={ui} alt="" className="  w-full h-full min-h-[400px] object-cover"></img>
+                        <div className="w-full absolute inset-x-0 -bottom-[123px] group group-hover:bottom-0 duration-500 bg-white rounded-t-lg">
+                            <div className="flex flex-col">
+                                <span className="text-heading3 p-2 pl-6 font-bold">UI Design</span>
+                                <span className="text-heading4 p-2 pl-6 font-base">Figma</span>
+                                <span className="text-heading4 p-2 pl-6 font-base">Miro</span>
+                                <span className="text-heading4 p-2 pl-6 pb-3 font-base">Notion</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="card" className=" max-w-[350px] md:max-w-[450px] duration-700 shadow-lg rounded-md overflow-hidden relative group">
+                        <img src={web} alt="" className=" w-full h-full min-h-[400px] object-cover"></img>
+                        <div className="w-full absolute inset-x-0 -bottom-[121px] group group-hover:bottom-0 duration-500 bg-white rounded-t-lg">
+                            <div className="flex flex-col">
+                                <span className="text-heading3 p-2 pl-6 font-semibold">Web Developer</span>
+                                <span className="text-heading4 p-2 pl-6 font-base">Html</span>
+                                <span className="text-heading4 p-2 pl-6 font-base">Css</span>
+                                <span className="text-heading4 p-2 pl-6 pb-3 font-base">Tailwind Css</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        
+       
+        
+    )
+}
+
+export default Skills
+
+
+{/* <div id="main_skills" className="mx-auto min-w-[450px] w-full grid md:grid-cols-9 sm:grid-rows-9 md:mt-[36px]">
             <div id="ux" className="sm:row-span-4 md:col-span-4 w-full h-full ">
                 <div className="px-20 py-20 md:-mr-[80px] lg:-mr-[120px] md:pt-24 md:pb-32  lg:px-32 lg:pt-24 lg:pb-24">
                     <div className="flex flex-col">
@@ -78,10 +123,4 @@ const Skills = () => {
                     </div>
                 </div>
             </div>            
-        </div>
-       
-        
-    )
-}
-
-export default Skills
+        </div> */}

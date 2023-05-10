@@ -3,8 +3,8 @@ import React from "react";
 const AcademicHistory = () => {
     return (
     <div id="main_academic-history" className="min-w-[450px]">
-        <div className="text-header2 flex flex-col justify-start xs:items-start xs:pl-20 md:pl-0 md:pt-12 md:pb-12 md:items-center md:mb-[32px] mb-10 md:py-0">
-            <span className="text-heading3 text-hijauA3B18A font-bold">Academic and Work</span>
+        <div className="text-header2 flex flex-col justify-start xs:items-start xs:pl-20 md:pl-0 md:pb-12 md:items-center md:mb-[32px] mb-10 md:py-0">
+            <span className="text-heading3 text-hijauA3B18A font-bold pb-2">Academic and Work</span>
             <span className="text-heading2 text-hijau344E41 font-bold" >History</span>
         </div>
 

@@ -30,6 +30,7 @@ module.exports = {
         'display2' : ['49px', '120%'],
         'heading1': ['39px', '120%'],
         'heading2': ['31px', '120%'],
+        'heading2b': ['31px', '170%'],
         'heading3': ['25px', '120%'],
         'heading4': ['20px', '120%'],
         'heading5' : ['16px', '120%'],
